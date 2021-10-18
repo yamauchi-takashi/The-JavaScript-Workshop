@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>To-Do List</title>
+</head>
+<body>
+    <h1>Javascript Frameworks</h1>
+    <ul id="frameworks">
+        <li>Angular</li>
+        <li>Vue</li>
+        <li>React</li>
+    </ul>
+    <script>
+        var frameworksList = document.getElementById('frameworks');
+        var newFramework = document.createElement('li');
+        newFramework.innerText = "Apache Royale";
+        frameworksList.appendChild(newFramework);
+        frameworksList.lastChild.style.color = "green";
+    </script>
+</body>
+
+</html>
