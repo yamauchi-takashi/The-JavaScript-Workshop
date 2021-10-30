@@ -1,7 +1,3 @@
-for (let name in location) {
-	console.log(name, ":", location[name]);
-};
-
 var stopWatch = {
 	elapsedTime: 0,
 	resultsHistory: [],
